@@ -13,7 +13,7 @@ if __name__ == "__main__":
     print(p1)
     print(p1.name)  # iPhone
     print(p1.amount)  # 100000
-    p1.discoount(5000)
+    p1.discount(5000)
     print(p1.amount)  # 95000
 
     p2 = Product("MBA", 150000)  # Productクラスのインスタンス化S
